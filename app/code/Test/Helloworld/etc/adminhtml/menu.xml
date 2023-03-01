@@ -10,7 +10,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 <menu>
     <add id="Test_Helloworld::helloworld" title="Demo_Menu" module="Test_Helloworld" sortOrder="51" resource="Test_Helloworld::helloworld"/>
-    <add id="Test_Helloworld::post" title="Manage Posts" module="Test_Helloworld" sortOrder="10" action="Test_Helloworld/post" resource="Test_Helloworld::post" parent="Test_Helloworld::helloworld"/>
     <add id="Test_Helloworld::hello_configuration" title="Configuration" module="Test_Helloworld" sortOrder="99" parent="Test_Helloworld::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="Test_Helloworld::helloworld_configuration"/>
 </menu>
 </config>
