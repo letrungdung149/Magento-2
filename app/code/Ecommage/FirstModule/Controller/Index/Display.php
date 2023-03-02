@@ -1,5 +1,5 @@
 <?php
-namespace Magento\HelloWorld\Controller\Index;
+namespace Ecommage\FirstModule\Controller\Index;
 
 class Display extends \Magento\Framework\App\Action\Action
 {
@@ -8,9 +8,7 @@ class Display extends \Magento\Framework\App\Action\Action
         \Magento\Framework\App\Action\Context $context,
         \Magento\Framework\View\Result\PageFactory $pageFactory)
     {
-        echo '<pre>';
-        print_r(123);
-        die;
+
         $this->_pageFactory = $pageFactory;
         return parent::__construct($context);
     }
