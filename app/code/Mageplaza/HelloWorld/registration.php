@@ -1,6 +1,7 @@
 <?php
+
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Ecommage_FirstModule',
+    'Mageplaza_HelloWorld',
     __DIR__
 );
