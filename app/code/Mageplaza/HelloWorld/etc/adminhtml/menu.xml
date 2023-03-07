@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Mageplaza_HelloWorld::helloworld"
+        title="Demo_menu" module="Mageplaza_HelloWorld"
+        sortOrder="51"
+             parent="Magento_Backend::content"
+        resource="Mageplaza_HelloWorld::helloworld"/>
+
+        <add id="Mageplaza_HelloWorld::test" title="Demo_menu"
+        module="Mageplaza_HelloWorld" sortOrder="1"
+        parent="Mageplaza_HelloWorld::helloworld"
+        action="mageplaza_helloworld/index/index"
+        resource="Mageplaza_HelloWorld::demo_menu"
+        />
+    </menu>
+</config>
